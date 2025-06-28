@@ -4,11 +4,29 @@
 @padding: 12px;
 @text-color: #333;
 
-h1 {
+//cambio
+h2 {
     font-size: 3rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
+    color: @color-header;
+
+}
+
+
+.indicador-scroll {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: -30px;
+  padding: 0 10px;
+  display: none;
+
+  @media (max-width: 767px) {
+    display: block;
+  }
 }
 
 .contenedor-scroll {
@@ -18,7 +36,7 @@ h1 {
 
 
 .tabla {
-    min-width: 600px;
+    min-width: 800px;
     width: 90%;
     margin: 40px auto;
     border: 1px solid @color-border;
@@ -34,7 +52,7 @@ h1 {
 
         .col {
             flex: 1;
-            min-width: 15px;
+            min-width: 50px; 
             padding: @padding;
             text-align: center;
             color: @text-color;
@@ -51,7 +69,7 @@ h1 {
             border-bottom: 1px solid @color-border;
 
             .col {
-                min-width: 15px;
+                min-width: 50px; 
                 flex: 1;
                 padding: @padding;
                 text-align: center;
@@ -59,4 +77,8 @@ h1 {
             }
         }
     }
+}
+
+.contenido-tabla:nth-child(even) {
+    background-color: darken(@color-bg, 10%);
 }
