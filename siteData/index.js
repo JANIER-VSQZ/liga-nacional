@@ -1,4 +1,5 @@
 import indexData from './pages/home';
+
 function context(page){
     console.log("Getting context for: " + page);
     let context = {
