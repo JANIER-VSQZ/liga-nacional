@@ -1,0 +1,81 @@
+export default {
+  estudiante: [
+    {
+      id: '061520030042',
+      nombre: 'Richard Galo',
+      edad: '21',
+      correo: 'rgalo3@gmail.com',
+      ciudad: 'San Marcos de Colón',
+    },
+    {
+      id: '06251630042',
+      nombre: 'Checo Perez',
+      edad: '21',
+      correo: 'perefq@gmail.com',
+      ciudad: 'Choluteca',
+    },
+    {
+      id: '08121998261352',
+      nombre: 'Pepe Federico',
+      edad: '25',
+      correo: 'fedelobo@gmail.com',
+      ciudad: 'Tegucigalpa',
+    },
+    {
+      id: '0701199900011',
+      nombre: 'María Torres',
+      edad: '22',
+      correo: 'maria3res@gmail.com',
+      ciudad: 'Comayagua',
+    },
+    {
+      id: '0502123456789',
+      nombre: 'Carlos Méndez',
+      edad: '23',
+      correo: 'carl2@hotmail.com',
+      ciudad: 'Danlí',
+    },
+    {
+      id: '0801234567890',
+      nombre: 'Lucía Castillo',
+      edad: '20',
+      correo: 'lucitillo@yahoo.com',
+      ciudad: 'La Ceiba',
+    },
+    {
+      id: '0601987654321',
+      nombre: 'Jorge Álvarez',
+      edad: '26',
+      correo: 'jorgelvarez@gmail.com',
+      ciudad: 'Santa Rosa de Copán',
+    },
+    {
+      id: '0512123412345',
+      nombre: 'Daniela Paz',
+      edad: '24',
+      correo: 'danielaz@outlook.com',
+      ciudad: 'Gracias',
+    },
+    {
+      id: '0909090909090',
+      nombre: 'Raúl Martínez',
+      edad: '21',
+      correo: 'raulm99@gmail.com',
+      ciudad: 'Juticalpa',
+    },
+    {
+      id: '0111222333444',
+      nombre: 'Karla Reyes',
+      edad: '22',
+      correo: 'karlyes@gmail.com',
+      ciudad: 'El Paraíso',
+    },
+    {
+      id: '0404888777999',
+      nombre: 'Antonio Rivas',
+      edad: '25',
+      correo: 'antonas@mail.com',
+      ciudad: 'Yuscarán',
+    },
+  ]
+}

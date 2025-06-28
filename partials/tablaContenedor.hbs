@@ -1,0 +1,20 @@
+<section class="tabla">
+    
+    <div class="fila encabezado">
+    <div class="col">ID</div>
+    <div class="col">Nombre</div>
+    <div class="col">Edad</div>
+    <div class="col">Correo</div>
+    <div class="col">Ciudad</div>
+</div>
+
+    {{#each tablasData}}
+        {{>tabla
+            id=id
+            nombre=nombre
+            edad=edad
+            correo=correo
+            ciudad=ciudad
+        }}
+   {{/each}}
+</section>
