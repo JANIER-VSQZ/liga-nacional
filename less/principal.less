@@ -11,7 +11,14 @@ h1 {
     justify-content: center;
 }
 
+.contenedor-scroll {
+    width: 100%;
+    overflow-x: auto;
+}
+
+
 .tabla {
+    min-width: 600px;
     width: 90%;
     margin: 40px auto;
     border: 1px solid @color-border;
@@ -27,9 +34,11 @@ h1 {
 
         .col {
             flex: 1;
+            min-width: 15px;
             padding: @padding;
             text-align: center;
             color: @text-color;
+
         }
     }
 
@@ -42,6 +51,7 @@ h1 {
             border-bottom: 1px solid @color-border;
 
             .col {
+                min-width: 15px;
                 flex: 1;
                 padding: @padding;
                 text-align: center;
