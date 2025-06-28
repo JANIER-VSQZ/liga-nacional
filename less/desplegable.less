@@ -3,8 +3,8 @@
 }
 
 .acordeon-boton {
-    background-color: #92C9B1; 
-    color: #196343 ;
+    background-color: @color-header; 
+    color: @text-color;
     font-weight: 600;
     text-align: left;
     width: 100%;
@@ -12,7 +12,7 @@
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
-    border: 0.2px solid #f2f2f2 ; 
+    border: 0.2px @color-border; 
     border-radius: 4px;
     padding: 15px 20px;
     font-size: 18px;
@@ -21,14 +21,14 @@
 }
 
 .acordeon-boton:hover {
-    background-color: #a2faa3;
+    background-color: @color-highlight;
 }
 
 .acordeon-contenido {
     padding: 10px 15px;
     display: none;
 
-    background-color: #f2f2f2 ; 
+    background-color:  @color-bg; 
     transition: max-height 0.2s ease-out;
 }
 
