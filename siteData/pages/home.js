@@ -254,7 +254,189 @@ export default {
       golesContra: 68,
       posicion: 18
     }
-  ]
+  ],
+  españa: [
+    {
+      nombre: "Barcelona",
+      partidosJugados: 38,
+      partidosGanados: 28,
+      partidosEmpatados: 4,
+      golesFavor: 102,
+      golesContra: 39,
+      posicion: 1
+    },
+    {
+      nombre: "Real Madrid",
+      partidosJugados: 38,
+      partidosGanados: 26,
+      partidosEmpatados: 6,
+      golesFavor: 78,
+      golesContra: 38,
+      posicion: 2
+    },
+    {
+      nombre: "Atlético Madrid",
+      partidosJugados: 38,
+      partidosGanados: 22,
+      partidosEmpatados: 10,
+      golesFavor: 68,
+      golesContra: 30,
+      posicion: 3
+    },
+    {
+      nombre: "Athletic Bilbao",
+      partidosJugados: 38,
+      partidosGanados: 19,
+      partidosEmpatados: 13,
+      golesFavor: 54,
+      golesContra: 29,
+      posicion: 4
+    },
+    {
+      nombre: "Villarreal",
+      partidosJugados: 38,
+      partidosGanados: 20,
+      partidosEmpatados: 10,
+      golesFavor: 71,
+      golesContra: 51,
+      posicion: 5
+    },
+    {
+      nombre: "Real Betis",
+      partidosJugados: 38,
+      partidosGanados: 16,
+      partidosEmpatados: 12,
+      golesFavor: 57,
+      golesContra: 50,
+      posicion: 6
+    },
+    {
+      nombre: "Celta Vigo",
+      partidosJugados: 38,
+      partidosGanados: 16,
+      partidosEmpatados: 7,
+      golesFavor: 59,
+      golesContra: 57,
+      posicion: 7
+    },
+    {
+      nombre: "Rayo Vallecano",
+      partidosJugados: 38,
+      partidosGanados: 13,
+      partidosEmpatados: 13,
+      golesFavor: 41,
+      golesContra: 45,
+      posicion: 8
+    },
+    {
+      nombre: "Osasuna",
+      partidosJugados: 38,
+      partidosGanados: 12,
+      partidosEmpatados: 16,
+      golesFavor: 48,
+      golesContra: 52,
+      posicion: 9
+    },
+    {
+      nombre: "Mallorca",
+      partidosJugados: 38,
+      partidosGanados: 13,
+      partidosEmpatados: 9,
+      golesFavor: 35,
+      golesContra: 44,
+      posicion: 10
+    },
+    {
+      nombre: "Real Sociedad",
+      partidosJugados: 38,
+      partidosGanados: 13,
+      partidosEmpatados: 7,
+      golesFavor: 35,
+      golesContra: 46,
+      posicion: 11
+    },
+    {
+      nombre: "Valencia",
+      partidosJugados: 38,
+      partidosGanados: 11,
+      partidosEmpatados: 13,
+      golesFavor: 44,
+      golesContra: 54,
+      posicion: 12
+    },
+    {
+      nombre: "Getafe",
+      partidosJugados: 38,
+      partidosGanados: 11,
+      partidosEmpatados: 9,
+      golesFavor: 34,
+      golesContra: 39,
+      posicion: 13
+    },
+    {
+      nombre: "Espanyol",
+      partidosJugados: 38,
+      partidosGanados: 11,
+      partidosEmpatados: 9,
+      golesFavor: 40,
+      golesContra: 51,
+      posicion: 14
+    },
+    {
+      nombre: "Alavés",
+      partidosJugados: 38,
+      partidosGanados: 10,
+      partidosEmpatados: 12,
+      golesFavor: 38,
+      golesContra: 48,
+      posicion: 15
+    },
+    {
+      nombre: "Girona",
+      partidosJugados: 38,
+      partidosGanados: 11,
+      partidosEmpatados: 8,
+      golesFavor: 44,
+      golesContra: 60,
+      posicion: 16
+    },
+    {
+      nombre: "Sevilla",
+      partidosJugados: 38,
+      partidosGanados: 10,
+      partidosEmpatados: 11,
+      golesFavor: 42,
+      golesContra: 55,
+      posicion: 17
+    },
+    {
+      nombre: "Leganés",
+      partidosJugados: 38,
+      partidosGanados: 9,
+      partidosEmpatados: 13,
+      golesFavor: 39,
+      golesContra: 56,
+      posicion: 18
+    },
+    {
+      nombre: "Las Palmas",
+      partidosJugados: 38,
+      partidosGanados: 8,
+      partidosEmpatados: 8,
+      golesFavor: 40,
+      golesContra: 61,
+      posicion: 19
+    },
+    {
+      nombre: "Real Valladolid",
+      partidosJugados: 38,
+      partidosGanados: 4,
+      partidosEmpatados: 4,
+      golesFavor: 26,
+      golesContra: 90,
+      posicion: 20
+    }
+  ]  
 }
 
 
