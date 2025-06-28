@@ -25,6 +25,22 @@ h2 {
   @media (max-width: 767px) {
     display: block;
   }
+    text-align: center;
+}
+
+
+.indicador-scroll {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: -30px;
+  padding: 0 10px;
+  display: none;
+
+  @media (max-width: 767px) {
+    display: block;
+  }
 }
 
 .contenedor-scroll {
@@ -34,7 +50,7 @@ h2 {
 
 
 .tabla {
-    min-width: 600px;
+    min-width: 800px;
     width: 90%;
     margin: 40px auto;
     border: 1px solid @color-border;
@@ -75,4 +91,8 @@ h2 {
             }
         }
     }
+}
+
+.contenido-tabla:nth-child(even) {
+    background-color: darken(@color-bg, 10%);
 }
